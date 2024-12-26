@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                FOTO
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Faça login para acessar seu espaço de trabalho</p>
+                <form action="login.php" method="post">
+
+                    <div>
+                        <label for="iemail" class="login-input">E-mail: </label>
+                        <input type="email" name="email" id="iemail">
+                    </div>
+                    <div>
+                        <label for="isenha" class="login-input">Senha: </label>
+                        <input type="password" name="senha" id="isenha">
+                    </div>
+
+                </form>
+                <p><a href="#">Esqueceu a senha?</a></p>
+                <p><a href="#">Cadastre-se</a></p>
+
+                <div id="botoes">
+                    <input type="submit" value="Entrar">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
