@@ -2,15 +2,64 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
 
+    section#login {
+        width: 80vw;
+        height: 354px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    section#login > div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        margin: 10px 0;
+    }
 }
 
 /* Desktop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section#login {
+        width: 950px;
+        height: 358px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0;
+    }
 }
 
-/* Telas grandes */
+/* Telas grandes 
 @media screen and (min-width: 1200px) {
     
-}
+}*/
